@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import  Formulaire from "./Formulaire";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white">
+      <h1 className="text-3xl font-bold text-center py-10">📝 Formulaire React</h1>
+      <Formulaire />
     </div>
   );
 }
