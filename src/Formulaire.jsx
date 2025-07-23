@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import "./Formulaire.css";
 
 function Formulaire() {
     const [formData, setFormData] = useState({
@@ -41,7 +42,7 @@ function Formulaire() {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full p-2 bg-white/60 text-gray-800 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 backdrop-blur-sm"
+                className="w-full p-2 bg-white/60 text-gray-800 border border-gray-300 rounded-md focus:outline-none input-gradient-focus backdrop-blur-sm"
                 />
 
                 <input
@@ -51,7 +52,7 @@ function Formulaire() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full p-2 bg-white/60 text-gray-800 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 backdrop-blur-sm"
+                className="w-full p-2 bg-white/60 text-gray-800 border border-gray-300 rounded-md focus:outline-none input-gradient-focus backdrop-blur-sm"
                 />
 
                 <input
@@ -61,7 +62,7 @@ function Formulaire() {
                 value={formData.password}
                 onChange={handleChange}
                 required
-                className="w-full p-2 bg-white/60 text-gray-800 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 backdrop-blur-sm"
+                className="w-full p-2 bg-white/60 text-gray-800 border border-gray-300 rounded-md focus:outline-none input-gradient-focus backdrop-blur-sm"
                 />
 
                 <label className="inline-flex items-center space-x-2 text-sm text-gray-600">

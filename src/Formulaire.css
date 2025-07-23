@@ -1,0 +1,7 @@
+.input-gradient-focus:focus {
+  border-width: 2px;
+  border-style: solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(90deg, #7e22ce, #ec4899, #ef4444);
+  outline: none;
+}
